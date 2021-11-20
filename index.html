@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financiar </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body style="background-color: #9898f0;">
+    <main>
+      <div class="section" style="margin-left: 50%; margin-top: 15%; ">
+
+        <div class="title"> Poupança </div>
+
+        <div class="input">
+             <input placeholder="Nome:" type="text" id='nome' required="required" style="margin-bottom: 4%;">
+        </div>
+
+        <div class="input">
+          <input placeholder="Valor Aplicado Mensalmente:" type="text" id='RendaMensal' required="required" style="margin-bottom: 4%;">
+      </div>
+
+        <div class="input">
+            <input  placeholder="Taxa de Juros:"  type="text" id='Financiamento'required="required" style="margin-bottom: 4%;">
+        </div>
+
+        <div class="input">
+          <input  placeholder="Numero de Parcelas Mensais:"  type="number" id='Parcelas'required="required" style="margin-bottom: 4%;">
+      </div>
+
+        
+
+        <button id='calcular'>executar</button>
+
+        <div class="result" id='resultado'></div>
+
+
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
